@@ -13,4 +13,23 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Text">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/text</item>
+        <item name="android:layout_marginVertical">12dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:text">@string/display</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_marginTop">@dimen/edit_text_top_margin</item>
+        <item name="android:minHeight">@dimen/edit_text_height</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/text_to_display</item>
+    </style>
+
 </resources>
