@@ -19,9 +19,9 @@
 
     <Button
         android:id="@+id/buttonLiveData"
-        style="@style/Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/livedata"/>
 
     <EditText
         android:id="@+id/editTextFlow"
@@ -37,9 +37,9 @@
 
     <Button
         android:id="@+id/buttonFlow"
-        style="@style/Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/stateflow"/>
 
     <EditText
         android:id="@+id/editTextRx"
@@ -55,8 +55,8 @@
 
     <Button
         android:id="@+id/buttonRx"
-        style="@style/Button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/rxjava"/>
 
 </LinearLayout>

@@ -3,4 +3,7 @@
     <string name="text_to_display">Text to display</string>
     <string name="text">Text</string>
     <string name="display">Display</string>
+    <string name="rxjava">RxJava</string>
+    <string name="stateflow">StateFlow</string>
+    <string name="livedata">LiveData</string>
 </resources>
