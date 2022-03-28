@@ -1,8 +1,13 @@
 package com.example.mvvmdemo.model
 
+import io.reactivex.rxjava3.core.Single
+
+/**
+ * Фейковая model
+ */
 object Data {
 
-    var liveDataText = ""
-    var flowText = ""
-    var rxText = ""
+    var liveDataText = "text"
+    var flowText = "text"
+    var rxText = "text"
 }
